@@ -74,3 +74,4 @@ C:\Users\Angel\OneDrive\Bureaublad\Bureaublad-LAPTOP-JBJG7PSV\GitHub\GameLaunche
 C:\Users\Angel\OneDrive\Bureaublad\Bureaublad-LAPTOP-JBJG7PSV\GitHub\GameLauncher-Github\GameLauncher\Launcher\Launcher\obj\Debug\net6.0-windows\Launcher.genruntimeconfig.cache
 C:\Users\Angel\OneDrive\Bureaublad\Bureaublad-LAPTOP-JBJG7PSV\GitHub\GameLauncher-Github\GameLauncher\Launcher\Launcher\obj\Debug\net6.0-windows\ref\Launcher.dll
 C:\Users\Angel\OneDrive\Bureaublad\Bureaublad-LAPTOP-JBJG7PSV\GitHub\GameLauncher-Github\GameLauncher\Launcher\Launcher\obj\Debug\net6.0-windows\Launcher_Content.g.cs
+C:\Users\Angel\Documents\GitHub\GameLauncher-Github\GameLauncher\Launcher\Launcher\obj\Debug\net6.0-windows\Launcher_Content.g.cs

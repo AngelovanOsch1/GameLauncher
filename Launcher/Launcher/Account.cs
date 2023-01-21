@@ -8,8 +8,9 @@ namespace Launcher
 {
     internal class Account
     {
-        public string username;
-        public string _id;
+        public string username { get; set; };
+        public string _id { get; set; }
+
         public Account(string username, string id)
         {
             this.username = username;

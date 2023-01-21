@@ -182,7 +182,7 @@ namespace Launcher.View
             {
                 ProcessStartInfo startInfo = new ProcessStartInfo(gameExe);
                 startInfo.WorkingDirectory = Path.Combine(rootPath, "Build");
-                startInfo.Arguments = "hey";
+                startInfo.Arguments = "bier";
                 Process.Start(startInfo);
 
                 Close();
@@ -215,8 +215,9 @@ namespace Launcher.View
 
             if (gameAccount != null) {
                 PlayButton.Visibility = Visibility.Visible;
-            
-            } else
+            }
+
+            else
             {
 
             }
