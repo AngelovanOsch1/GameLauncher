@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8dTsqovnfcJHE+vIzGSI6AbVlDBhOKe8eMd4/YMmfEIbI6euUDuiOoIFrAJI/9UEkkf7efF58etOokFXM9IzBQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Angel\\OneDrive\\Bureaublad\\Bureaublad-LAPTOP-JBJG7PSV\\GitHub\\GameLauncher-Github\\GameLauncher\\Launcher\\Launcher\\Launcher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Angel\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

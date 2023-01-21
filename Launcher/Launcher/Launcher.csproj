@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>images\video-game-play-pad-boy-gameboy-nintendo_108539.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\test.png" />
+    <None Remove="images\test1.png" />
+    <None Remove="images\username-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="images\video-game-play-pad-boy-gameboy-nintendo_108539.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="ViewModel\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\test.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\test1.png" />
+    <Resource Include="images\username-icon.png" />
+  </ItemGroup>
+
+</Project>
