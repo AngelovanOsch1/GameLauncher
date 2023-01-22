@@ -8,8 +8,8 @@ namespace Launcher
 {
     internal class Account
     {
-        public string username { get; set; };
-        public string _id { get; set; }
+        public string username;
+        public string _id;
 
         public Account(string username, string id)
         {

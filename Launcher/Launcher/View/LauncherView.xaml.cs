@@ -1,6 +1,5 @@
 ﻿using System.Windows;
 using System.Windows.Input;
-
 using Newtonsoft.Json;
 using System;
 using System.ComponentModel;
@@ -10,7 +9,6 @@ using System.IO.Compression;
 using System.Net;
 using System.Net.Http;
 using System.Text;
-using System.Windows;
 using System.Windows.Controls;
 
 namespace Launcher.View
@@ -34,6 +32,8 @@ namespace Launcher.View
         private string loginPassword;
 
         PasswordBox pwdBox = new PasswordBox();
+
+        private Account gameAccount;
 
 
 
@@ -182,7 +182,7 @@ namespace Launcher.View
             {
                 ProcessStartInfo startInfo = new ProcessStartInfo(gameExe);
                 startInfo.WorkingDirectory = Path.Combine(rootPath, "Build");
-                startInfo.Arguments = "bier";
+                startInfo.Arguments = gameAccount.username;
                 Process.Start(startInfo);
 
                 Close();
@@ -212,6 +212,7 @@ namespace Launcher.View
             var result = await client.PostAsync(endPoint, payload);
             var response = await result.Content.ReadAsStringAsync();
             Account gameAccount = JsonConvert.DeserializeObject<Account>(response);
+            this.gameAccount = gameAccount;
 
             if (gameAccount != null) {
                 PlayButton.Visibility = Visibility.Visible;
